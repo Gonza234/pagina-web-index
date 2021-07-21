@@ -1,0 +1,30 @@
+﻿<html>
+<head><title> iniciar sesion
+</title></head>
+<body>
+<body background="Imagen/Negocio.jpg">
+
+<center><h3> <b> Introducir para iniciar sesion </b></h3>
+
+<form action="registro.php" method="POST">
+
+
+  <br/>
+Correo electronico <br/>
+<input type="text" name="email" />
+  <br/>
+Contraseña <br/>
+<input type="password" name="contraseña"  />
+  <br/> 
+Sexo  <br/> 
+<input type="radio" name="sexo" value="M"  /> Hombre
+ <br/>
+<input type="radio" name="sexo" value="F" /> Mujer
+  <br/> 
+<input type="submit" name="enviar" value="enviar" />
+</center>
+</body>
+<?php
+include("iniciar sesion.html")
+?>
+</html>
